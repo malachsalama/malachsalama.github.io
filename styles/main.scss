@@ -3,7 +3,7 @@ $portfolio-primary: #19a2ae;
 $portfolio-secondary: hsl(229, 23%, 23%);
 $portfolio-neutral: hsl(0, 0%, 59%);
 
-$base-font-size: 20px;
+$base-font-size: 16px;
 $font-primary: "Poppins", sans-serif;
 $weight-light: 300;
 $weight-semi-light: 400;
@@ -58,10 +58,7 @@ ul {
 .Portfolio__SidebarWrapper {
   padding: 0 1.5rem;
   position: relative;
-
-  h1 {
-    font-size: 1.3rem;
-  }
+  font-size: 1.1rem;
 
   p {
     color: $portfolio-neutral;
@@ -74,11 +71,11 @@ ul {
   flex-direction: column;
 
   ul {
-    margin: 2.5rem 0;
+    margin: 3rem 0;
   }
 
   li {
-    margin: 1.5rem 0;
+    margin: 0.5rem 0;
     text-transform: uppercase;
     transition: all 0.3s ease;
   }
@@ -135,6 +132,7 @@ ul {
   }
 
   p {
+    font-size: 1.2rem;
     margin-bottom: 1.5rem;
   }
 }
@@ -149,7 +147,7 @@ ul {
   border-radius: 5px;
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
     0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  height: 100%;
+  height: 90%;
   margin-bottom: 3rem;
 }
 
@@ -220,6 +218,10 @@ ul {
 
 .section {
   margin: 3rem 0;
+
+  li {
+    font-size: 1.2rem;
+  }
 }
 
 @import "tablet";
